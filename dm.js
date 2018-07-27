@@ -41,7 +41,7 @@ const generateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Het ${name}! Thanks for the follow. If you are a dev and want to showcase your skills, def check out https://hackerlog.io.  \n Anyhow, I hope you have an awesome ${dayName} 😊😊 `;
+  return `Hey ${name}! Thanks for the follow. If you are a dev and want to showcase your skills, definitely check out https://hackerlog.io.  \n Anyhow, I hope you have an awesome ${dayName} 😊😊 `;
 };
 
 module.exports = AutoDM;
