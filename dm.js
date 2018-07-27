@@ -16,7 +16,7 @@ const sendMessage = user => {
     text: generateMessage(name)
   };
   // the follow stream track if I follow author person too.
-  if (screen_name != myUsername) {
+  if (screen_name.toLowerCase() != myUsername.toLowerCase()) {
     console.log(" 🎉🎉🎉🎉 New Follower  🎉🎉🎉🎉🎉 ");
     setTimeout(() => {
       T.post("direct_messages/new", obj)
