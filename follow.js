@@ -32,7 +32,7 @@ const keyword = () => {
 };
 
 const searchForUsers = () => {
-  T.get("search/tweets", { q: `${keyword()} since:2017-01-01`, count: 500 })
+  T.get("search/tweets", { q: `${keyword()} since:2017-01-01`, count: 100 })
     .then(result => {
       const tweets = get(result, "data.statuses", null);
       if (tweets) {
