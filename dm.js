@@ -24,7 +24,6 @@ const sendMessage = user => {
           console.error("error", err.stack);
         })
         .then(result => {
-          console.log(result);
           console.log(`Message sent successfully To  ${screen_name}  💪💪`);
         });
     }, timeout);
