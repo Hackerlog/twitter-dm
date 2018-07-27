@@ -2,7 +2,14 @@ const { get, each } = require("lodash");
 
 const T = require("./bootstrap.js");
 
-const positions = ["developer", "engineer", "lover"];
+const positions = [
+  "developer",
+  "engineer",
+  "lover",
+  "programmer",
+  "enthusiast",
+  "professional"
+];
 const languages = [
   "software",
   "web",
